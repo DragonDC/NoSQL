@@ -1,0 +1,2 @@
+# NoSQL
+Projekt na zaliczenie
