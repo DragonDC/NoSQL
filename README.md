@@ -15,8 +15,8 @@ Informacje o komputerze na którym były wykonywane obliczenia:
 
 | Nazwa                 | Wartosć    |
 |-----------------------|------------|
-| System operacyjny     | TODO |
-| Procesor              | TODO |
-| Pamięć                | TODO |
-| Dysk                  | TODO |
+| System operacyjny     | Win 10 Pro x64 |
+| Procesor              | Intel Core i7 4750HQ |
+| Pamięć                | 8GB |
+| Dysk                  | Hitachi Travelstar 7K1000 1TB |
 | Baza danych           | TODO |
