@@ -1,6 +1,6 @@
 ## Damian Centek
 
-Wybrany zbiór danych: TODO
+Wybrany zbiór danych: [Transportation - Airlines(2008)](http://stat-computing.org/dataexpo/2009/the-data.html)
 
 (zaliczenie)
 
