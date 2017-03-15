@@ -4,7 +4,7 @@ Wybrany zbiór danych: [Transportation - Airlines(2008)](http://stat-computing.o
 
 (zaliczenie)
 
-- [ ] EDA
+- [ ] EDA - [zadanie GEO](https://dragondc.github.io/NoSQL/)
 - [ ] Aggregation Pipeline
 
 (egzamin)
