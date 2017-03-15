@@ -1,0 +1,4043 @@
+{
+   "type": "FeatureCollection",
+   "features": [{
+	"_id": {
+		"$oid": "58c9219b6065008114827358"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.4904425,
+			33.86122222
+		]
+	},
+	"properties": {
+		"iata": "T47",
+		"airport": "Kickapoo Downtown Airpark",
+		"city": "Wichita Falls",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482731c"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.49189333,
+			33.98879611
+		]
+	},
+	"properties": {
+		"iata": "SPS",
+		"airport": "Sheppard AFB/Wichita Falls Municipal",
+		"city": "Wichita Falls",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827137"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.81916667,
+			33.35088056
+		]
+	},
+	"properties": {
+		"iata": "ONY",
+		"airport": "Olney Municipal",
+		"city": "Olney",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d21"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.73422972,
+			32.91019472
+		]
+	},
+	"properties": {
+		"iata": "F56",
+		"airport": "Arledge ",
+		"city": "Stamford",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148267cf"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.71793056,
+			33.19155556
+		]
+	},
+	"properties": {
+		"iata": "15F",
+		"airport": "Haskell Municipal",
+		"city": "Haskell",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482697e"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.26063056,
+			33.64870417
+		]
+	},
+	"properties": {
+		"iata": "60F",
+		"airport": "Seymour Municipal",
+		"city": "Seymour",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482735d"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.1976044,
+			33.17231861
+		]
+	},
+	"properties": {
+		"iata": "T60",
+		"airport": "Stonewall County",
+		"city": "Aspermont",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827344"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.4665508,
+			32.46736806
+		]
+	},
+	"properties": {
+		"iata": "SWW",
+		"airport": "Avenger ",
+		"city": "Sweetwater",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a57"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.68189722,
+			32.41132
+		]
+	},
+	"properties": {
+		"iata": "ABI",
+		"airport": "Abilene Regional",
+		"city": "Abilene",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482724e"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.5305556,
+			33.30155556
+		]
+	},
+	"properties": {
+		"iata": "ROW",
+		"airport": "Roswell Industrial Air Center",
+		"city": "Roswell",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826be2"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.2632778,
+			32.33747222
+		]
+	},
+	"properties": {
+		"iata": "CNM",
+		"airport": "Cavern City Air Terminal",
+		"city": "Carlsbad",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826ad0"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.4676864,
+			32.85252806
+		]
+	},
+	"properties": {
+		"iata": "ATS",
+		"airport": "Artesia Municipal",
+		"city": "Artesia",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827359"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.5216389,
+			32.21261111
+		]
+	},
+	"properties": {
+		"iata": "T49",
+		"airport": "Big Spring McMahon-Wrinkle",
+		"city": "Big Spring",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c99"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.1548506,
+			32.13107833
+		]
+	},
+	"properties": {
+		"iata": "E26",
+		"airport": "Lea County",
+		"city": "Jal",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c94"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.5295278,
+			32.33111111
+		]
+	},
+	"properties": {
+		"iata": "E11",
+		"airport": "Andrews County",
+		"city": "Andrews",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827204"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.1926208,
+			33.173675
+		]
+	},
+	"properties": {
+		"iata": "Q26",
+		"airport": "Terry County",
+		"city": "Brownfield",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826884"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.652685,
+			32.67535389
+		]
+	},
+	"properties": {
+		"iata": "31F",
+		"airport": "Gaines County",
+		"city": "Seminole",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c90"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.2404708,
+			32.45679139
+		]
+	},
+	"properties": {
+		"iata": "E04",
+		"airport": "Eunice",
+		"city": "Eunice",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826e2e"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.2170278,
+			32.68752778
+		]
+	},
+	"properties": {
+		"iata": "HOB",
+		"airport": "Lea County Regional",
+		"city": "Hobbs",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c92"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.4087778,
+			32.95394444
+		]
+	},
+	"properties": {
+		"iata": "E06",
+		"airport": "Lea County-Zip Franklin Memorial",
+		"city": "Lovington",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c93"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.2768939,
+			33.26122278
+		]
+	},
+	"properties": {
+		"iata": "E07",
+		"airport": "Lea County/Tatum ",
+		"city": "Tatum",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d26"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.7338183,
+			33.72926389
+		]
+	},
+	"properties": {
+		"iata": "F85",
+		"airport": "Morton-Cochran County",
+		"city": "Morton",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827202"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.3727333,
+			33.54980833
+		]
+	},
+	"properties": {
+		"iata": "Q24",
+		"airport": "Levelland Municipal",
+		"city": "Levelland",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826f59"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.8227778,
+			33.66363889
+		]
+	},
+	"properties": {
+		"iata": "LBB",
+		"airport": "Lubbock International",
+		"city": "Lubbock",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d1d"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.6607158,
+			33.48481
+		]
+	},
+	"properties": {
+		"iata": "F49",
+		"airport": "Slaton Municipal",
+		"city": "Slaton",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826853"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.9194722,
+			32.75627778
+		]
+	},
+	"properties": {
+		"iata": "2F5",
+		"airport": "Lamesa Municipal",
+		"city": "Lamesa",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482695a"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.340415,
+			33.20370556
+		]
+	},
+	"properties": {
+		"iata": "5F1",
+		"airport": "Post-Garza County Municipal",
+		"city": "Post",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482730c"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.9504525,
+			32.69338667
+		]
+	},
+	"properties": {
+		"iata": "SNK",
+		"airport": "Winston ",
+		"city": "Snyder",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827209"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.330435,
+			34.00230056
+		]
+	},
+	"properties": {
+		"iata": "Q41",
+		"airport": "Floydada Municipal",
+		"city": "Floydada",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826aa0"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.7059272,
+			35.2193725
+		]
+	},
+	"properties": {
+		"iata": "AMA",
+		"airport": "Amarillo International",
+		"city": "Amarillo",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148271fd"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.7814611,
+			34.56682472
+		]
+	},
+	"properties": {
+		"iata": "Q06",
+		"airport": "City of Tulia/Swisher County Municipal",
+		"city": "Tulia",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148271ef"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.7173361,
+			34.16814722
+		]
+	},
+	"properties": {
+		"iata": "PVW",
+		"airport": "Hale County",
+		"city": "Plainview",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148271fc"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.3866831,
+			33.92395306
+		]
+	},
+	"properties": {
+		"iata": "Q00",
+		"airport": "Littlefield Municipal",
+		"city": "Littlefield",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482720e"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.3226947,
+			34.56673556
+		]
+	},
+	"properties": {
+		"iata": "Q55",
+		"airport": "Dimmitt Municipal",
+		"city": "Dimmitt",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482687b"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.6410981,
+			34.18513639
+		]
+	},
+	"properties": {
+		"iata": "2T1",
+		"airport": "Muleshoe Municipal",
+		"city": "Muleshoe",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827206"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.4103333,
+			34.14547222
+		]
+	},
+	"properties": {
+		"iata": "Q34",
+		"airport": "Portales Municipal",
+		"city": "Portales",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c14"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.0792778,
+			34.42513889
+		]
+	},
+	"properties": {
+		"iata": "CVN",
+		"airport": "Clovis Municipal",
+		"city": "Clovis",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826e41"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.3272017,
+			34.85761639
+		]
+	},
+	"properties": {
+		"iata": "HRX",
+		"airport": "Hereford Municipal",
+		"city": "Hereford",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c9e"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.3990931,
+			35.23199833
+		]
+	},
+	"properties": {
+		"iata": "E52",
+		"airport": "Oldham County",
+		"city": "Vega",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826b8b"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.1546583,
+			36.44585972
+		]
+	},
+	"properties": {
+		"iata": "CAO",
+		"airport": "Clayton Municipal Airpark",
+		"city": "Clayton",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c57"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.5472775,
+			36.022585
+		]
+	},
+	"properties": {
+		"iata": "DHT",
+		"airport": "Dalhart Municipal",
+		"city": "Dalhart",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826dda"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.5077817,
+			36.68507194
+		]
+	},
+	"properties": {
+		"iata": "GUY",
+		"airport": "Guymon Municipal",
+		"city": "Guymon",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c96"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.4321894,
+			36.23372611
+		]
+	},
+	"properties": {
+		"iata": "E19",
+		"airport": "Gruver Municipal",
+		"city": "Gruver",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c7f"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.0130978,
+			35.85792833
+		]
+	},
+	"properties": {
+		"iata": "DUX",
+		"airport": "Moore County",
+		"city": "Dumas",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826b13"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.3940536,
+			35.70004194
+		]
+	},
+	"properties": {
+		"iata": "BGD",
+		"airport": "Hutchinson County",
+		"city": "Borger",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148271c1"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.9962608,
+			35.61298806
+		]
+	},
+	"properties": {
+		"iata": "PPA",
+		"airport": "Perry Lefors ",
+		"city": "Pampa",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148271fa"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.7517883,
+			36.41200333
+		]
+	},
+	"properties": {
+		"iata": "PYX",
+		"airport": "Perryton Ochiltree County",
+		"city": "Perryton",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c9c"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.1945,
+			36.221
+		]
+	},
+	"properties": {
+		"iata": "E42",
+		"airport": "Spearman Municipal",
+		"city": "Spearman",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826f5c"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.9598611,
+			37.04420944
+		]
+	},
+	"properties": {
+		"iata": "LBL",
+		"airport": "Liberal Municipal",
+		"city": "Liberal",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826806"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.9921119,
+			37.45419111
+		]
+	},
+	"properties": {
+		"iata": "1K9",
+		"airport": "Satanta Municipal",
+		"city": "Satanta",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148270ec"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.2270903,
+			36.85708306
+		]
+	},
+	"properties": {
+		"iata": "O45",
+		"airport": "Hooker Municipal",
+		"city": "Hooker",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826cbe"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.8821258,
+			37.00188194
+		]
+	},
+	"properties": {
+		"iata": "EHA",
+		"airport": "Elkhart-Morton County",
+		"city": "Elkhart",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826e38"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.3705267,
+			37.16308056
+		]
+	},
+	"properties": {
+		"iata": "HQG",
+		"airport": "Hugoton Municipal",
+		"city": "Hugoton",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148273ea"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.3733889,
+			37.60375278
+		]
+	},
+	"properties": {
+		"iata": "ULS",
+		"airport": "Ulysses",
+		"city": "Ulysses",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826864"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.73281,
+			37.58271111
+		]
+	},
+	"properties": {
+		"iata": "2K3",
+		"airport": "Stanton County Municipal",
+		"city": "Johnson",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148268b5"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.7462822,
+			37.99167972
+		]
+	},
+	"properties": {
+		"iata": "3K3",
+		"airport": "Syracuse-Hamilton County Municipal",
+		"city": "Syracuse",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482688f"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.2554472,
+			37.96946389
+		]
+	},
+	"properties": {
+		"iata": "36K",
+		"airport": "Lakin",
+		"city": "Lakin",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d91"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.7244147,
+			37.92751556
+		]
+	},
+	"properties": {
+		"iata": "GCK",
+		"airport": "Garden City Regional",
+		"city": "Garden City",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482739f"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.8849444,
+			38.47427778
+		]
+	},
+	"properties": {
+		"iata": "TQK",
+		"airport": "Scott City Municipal",
+		"city": "Scott City",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482710c"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.8164444,
+			39.10994444
+		]
+	},
+	"properties": {
+		"iata": "OEL",
+		"airport": "Oakley Municipal",
+		"city": "Oakley",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826b91"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.0465719,
+			39.42753083
+		]
+	},
+	"properties": {
+		"iata": "CBK",
+		"airport": "Shaltz ",
+		"city": "Colby",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826db1"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.6989919,
+			39.37062194
+		]
+	},
+	"properties": {
+		"iata": "GLD",
+		"airport": "Renner Field/Goodland Municipal",
+		"city": "Goodland",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826964"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.7462828,
+			38.45418222
+		]
+	},
+	"properties": {
+		"iata": "5K2",
+		"airport": "Tribune Municipal",
+		"city": "Tribune",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148268b7"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.3532161,
+			38.45696333
+		]
+	},
+	"properties": {
+		"iata": "3K7",
+		"airport": "Mark Hoard Memorial",
+		"city": "Leoti",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826f50"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.6885,
+			38.06969444
+		]
+	},
+	"properties": {
+		"iata": "LAA",
+		"airport": "Lamar Muni",
+		"city": "Lamar",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826ec4"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.2853889,
+			39.2425
+		]
+	},
+	"properties": {
+		"iata": "ITR",
+		"airport": "Kit Carson County",
+		"city": "Burlington",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826f77"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.5106908,
+			38.05134111
+		]
+	},
+	"properties": {
+		"iata": "LHX",
+		"airport": "La Junta Muni",
+		"city": "La Junta",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148267d9"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.5104364,
+			36.77430028
+		]
+	},
+	"properties": {
+		"iata": "17K",
+		"airport": "Boise City",
+		"city": "Boise City",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482725d"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.5021833,
+			36.74152778
+		]
+	},
+	"properties": {
+		"iata": "RTN",
+		"airport": "Raton Municipal/Crews ",
+		"city": "Raton",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827369"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.340675,
+			37.25937778
+		]
+	},
+	"properties": {
+		"iata": "TAD",
+		"airport": "Perry Stokes",
+		"city": "Trinidad",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826937"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.7838747,
+			37.69640056
+		]
+	},
+	"properties": {
+		"iata": "4V1",
+		"airport": "Johnson ",
+		"city": "Walsenburg",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826761"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.5698933,
+			38.94574889
+		]
+	},
+	"properties": {
+		"iata": "00V",
+		"airport": "Meadow Lake",
+		"city": "Colorado Springs",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826bee"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.70025,
+			38.80580556
+		]
+	},
+	"properties": {
+		"iata": "COS",
+		"airport": "City of Colorado Springs Muni",
+		"city": "Colorado Springs",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148271e5"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.4965722,
+			38.28908722
+		]
+	},
+	"properties": {
+		"iata": "PUB",
+		"airport": "Pueblo Memorial",
+		"city": "Pueblo",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826826"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-105.1054994,
+			38.42838111
+		]
+	},
+	"properties": {
+		"iata": "1V6",
+		"airport": "Fremont County",
+		"city": "Canon City",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148269eb"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-106.1206939,
+			38.81416194
+		]
+	},
+	"properties": {
+		"iata": "7V1",
+		"airport": "Buena Vista Muni",
+		"city": "Buena Vista",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148267b5"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-106.0458483,
+			38.53916389
+		]
+	},
+	"properties": {
+		"iata": "0V2",
+		"airport": "Harriet Alexander ",
+		"city": "Salida",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827088"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-106.0460533,
+			37.52855833
+		]
+	},
+	"properties": {
+		"iata": "MVI",
+		"airport": "Monte Vista Muni",
+		"city": "Monte Vista",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a9d"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-105.8665556,
+			37.43491667
+		]
+	},
+	"properties": {
+		"iata": "ALS",
+		"airport": "San Luis Valley Regional/Bergman ",
+		"city": "Alamosa",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148270a8"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-105.5975,
+			36.80030556
+		]
+	},
+	"properties": {
+		"iata": "N24",
+		"airport": "Questa Municipal Nr 2",
+		"city": "Questa",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826aea"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-105.2892967,
+			36.42240972
+		]
+	},
+	"properties": {
+		"iata": "AXX",
+		"airport": "Angel Fire",
+		"city": "Angel Fire",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148272f8"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-105.6724289,
+			36.45819
+		]
+	},
+	"properties": {
+		"iata": "SKX",
+		"airport": "Taos Municipal",
+		"city": "Taos",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826f53"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-106.2694153,
+			35.87980194
+		]
+	},
+	"properties": {
+		"iata": "LAM",
+		"airport": "Los Alamos",
+		"city": "Los Alamos",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148271fe"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-106.0464114,
+			36.02502306
+		]
+	},
+	"properties": {
+		"iata": "Q14",
+		"airport": "San Juan Pueblo",
+		"city": "Espanola",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148272a1"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-106.0881389,
+			35.61677778
+		]
+	},
+	"properties": {
+		"iata": "SAF",
+		"airport": "Santa Fe Municipal",
+		"city": "Santa Fe",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482678e"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-106.0094661,
+			34.98560639
+		]
+	},
+	"properties": {
+		"iata": "0E0",
+		"airport": "Moriarty",
+		"city": "Moriarty",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826fa7"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-105.1423889,
+			35.65422222
+		]
+	},
+	"properties": {
+		"iata": "LVS",
+		"airport": "Las Vegas Municipal",
+		"city": "Las Vegas",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482720a"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.6197117,
+			36.32697806
+		]
+	},
+	"properties": {
+		"iata": "Q42",
+		"airport": "Springer Municipal",
+		"city": "Springer",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482736f"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.6031853,
+			35.18277806
+		]
+	},
+	"properties": {
+		"iata": "TCC",
+		"airport": "Tucumcari Municipal",
+		"city": "Tucumcari",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826ca2"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.1880314,
+			35.36671583
+		]
+	},
+	"properties": {
+		"iata": "E89",
+		"airport": "Conchas State Park",
+		"city": "Conchas Dam",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482720f"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.643065,
+			34.93442472
+		]
+	},
+	"properties": {
+		"iata": "Q58",
+		"airport": "Santa Rosa Municipal",
+		"city": "Santa Rosa",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d6e"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-104.2171967,
+			34.48339944
+		]
+	},
+	"properties": {
+		"iata": "FSU",
+		"airport": "Fort Sumner Municipal",
+		"city": "Fort Sumner",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a59"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-106.6091944,
+			35.04022222
+		]
+	},
+	"properties": {
+		"iata": "ABQ",
+		"airport": "Albuquerque International",
+		"city": "Albuquerque",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a6d"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-106.7951617,
+			35.14515278
+		]
+	},
+	"properties": {
+		"iata": "AEG",
+		"airport": "Double Eagle II",
+		"city": "Albuquerque",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d56"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-108.2299444,
+			36.74125
+		]
+	},
+	"properties": {
+		"iata": "FMN",
+		"airport": "Four Corners Regional",
+		"city": "Farmington",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826979"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-108.7011986,
+			36.6977775
+		]
+	},
+	"properties": {
+		"iata": "5V5",
+		"airport": "Shiprock Airstrip",
+		"city": "Shiprock",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c70"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-107.7537692,
+			37.15151667
+		]
+	},
+	"properties": {
+		"iata": "DRO",
+		"airport": "Durango-La Plata County",
+		"city": "Durango",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826823"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-107.6514444,
+			36.80833833
+		]
+	},
+	"properties": {
+		"iata": "1V0",
+		"airport": "Navajo State Park ",
+		"city": "Navajo Dam",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826839"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-106.8841914,
+			36.828535
+		]
+	},
+	"properties": {
+		"iata": "24N",
+		"airport": "Jicarilla Apache Nation",
+		"city": "Dulce",
+		"state": "NM",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482687c"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-107.0558742,
+			37.277505
+		]
+	},
+	"properties": {
+		"iata": "2V1",
+		"airport": "Stevens ",
+		"city": "Pagosa Springs",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826f79"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.6663392,
+			39.272765
+		]
+	},
+	"properties": {
+		"iata": "LIC",
+		"airport": "Limon Municipal",
+		"city": "Limon",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a93"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-103.2220278,
+			40.17563333
+		]
+	},
+	"properties": {
+		"iata": "AKO",
+		"airport": "Akron-Washington Co",
+		"city": "Akron",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482687e"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.24096,
+			40.10032333
+		]
+	},
+	"properties": {
+		"iata": "2V5",
+		"airport": "Wray Municipal",
+		"city": "Wray",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482687f"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.7129869,
+			40.10415306
+		]
+	},
+	"properties": {
+		"iata": "2V6",
+		"airport": "Yuma Municipal",
+		"city": "Yuma",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826e0c"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-102.2726875,
+			40.56943056
+		]
+	},
+	"properties": {
+		"iata": "HEQ",
+		"airport": "Holyoke",
+		"city": "Holyoke",
+		"state": "CO",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826eaa"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.6205278,
+			40.50930556
+		]
+	},
+	"properties": {
+		"iata": "IML",
+		"airport": "Imperial Municipal",
+		"city": "Imperial",
+		"state": "NE",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827348"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.7958414,
+			39.76104833
+		]
+	},
+	"properties": {
+		"iata": "SYF",
+		"airport": "Cheyenne County Municipal",
+		"city": "St Francis",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a6b"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.0420278,
+			39.84013889
+		]
+	},
+	"properties": {
+		"iata": "ADT",
+		"airport": "Atwood-Rawlins County City-County",
+		"city": "Atwood",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826da4"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-101.7328611,
+			40.86952778
+		]
+	},
+	"properties": {
+		"iata": "GGF",
+		"airport": "Grant Municipal",
+		"city": "Grant",
+		"state": "NE",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827003"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.5918056,
+			40.20638889
+		]
+	},
+	"properties": {
+		"iata": "MCK",
+		"airport": "McCook Municipal",
+		"city": "McCook",
+		"state": "NE",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148270d2"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.89320583,
+			39.84914444
+		]
+	},
+	"properties": {
+		"iata": "NRN",
+		"airport": "Norton Municipal ",
+		"city": "Norton",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482711a"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.5394236,
+			39.83378278
+		]
+	},
+	"properties": {
+		"iata": "OIN",
+		"airport": "Oberlin Municipal",
+		"city": "Oberlin",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148268f4"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.90806667,
+			38.47110278
+		]
+	},
+	"properties": {
+		"iata": "48K",
+		"airport": "Ness City Municipal",
+		"city": "Ness City",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826e65"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.27403361,
+			38.84494167
+		]
+	},
+	"properties": {
+		"iata": "HYS",
+		"airport": "Hays Municipal",
+		"city": "Hays",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826799"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.89289917,
+			39.0044525
+		]
+	},
+	"properties": {
+		"iata": "0H1",
+		"airport": "Trego Wakeeney ",
+		"city": "Wakeeney",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826e21"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.83149444,
+			39.37883611
+		]
+	},
+	"properties": {
+		"iata": "HLC",
+		"airport": "Hill City Municipal",
+		"city": "Hill City",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a38"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.23061222,
+			38.74750889
+		]
+	},
+	"properties": {
+		"iata": "9K7",
+		"airport": "Ellsworth Municipal ",
+		"city": "Ellsworth",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827258"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.81177611,
+			38.87212222
+		]
+	},
+	"properties": {
+		"iata": "RSL",
+		"airport": "Russell Municipal",
+		"city": "Russell",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d8c"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.85917028,
+			38.34441861
+		]
+	},
+	"properties": {
+		"iata": "GBD",
+		"airport": "Great Bend Municipal",
+		"city": "Great Bend",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826f96"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.08607306,
+			38.20809667
+		]
+	},
+	"properties": {
+		"iata": "LQR",
+		"airport": "Larned-Pawnee County",
+		"city": "Larned",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148271e1"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.7462025,
+			37.7000175
+		]
+	},
+	"properties": {
+		"iata": "PTT",
+		"airport": "Pratt Industrial",
+		"city": "Pratt",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826fb6"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.22709639,
+			38.34261472
+		]
+	},
+	"properties": {
+		"iata": "LYO",
+		"airport": "Lyons-Rice County Municipal",
+		"city": "Lyons",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826e53"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.86063361,
+			38.06548306
+		]
+	},
+	"properties": {
+		"iata": "HUT",
+		"airport": "Hutchinson Municipal",
+		"city": "Hutchinson",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a39"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.12264722,
+			37.66660278
+		]
+	},
+	"properties": {
+		"iata": "9K8",
+		"airport": "Kingman Municipal",
+		"city": "Kingman",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826aad"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.07964667,
+			37.15852194
+		]
+	},
+	"properties": {
+		"iata": "ANY",
+		"airport": "Anthony Municipal",
+		"city": "Anthony",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c49"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.96542389,
+			37.76312194
+		]
+	},
+	"properties": {
+		"iata": "DDC",
+		"airport": "Dodge City Regional",
+		"city": "Dodge City",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a0b"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.3504222,
+			37.83057667
+		]
+	},
+	"properties": {
+		"iata": "8K8",
+		"airport": "Cimarron Municipal",
+		"city": "Cimarron",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827013"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.3563056,
+			37.27938889
+		]
+	},
+	"properties": {
+		"iata": "MEJ",
+		"airport": "Meade Municipal",
+		"city": "Meade",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482720b"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.5298708,
+			36.79891472
+		]
+	},
+	"properties": {
+		"iata": "Q44",
+		"airport": "Beaver Municipal",
+		"city": "Beaver",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826b0e"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.61873056,
+			36.86330139
+		]
+	},
+	"properties": {
+		"iata": "BFK",
+		"airport": "Buffalo Municipal",
+		"city": "Buffalo",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827450"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.5209975,
+			36.4367025
+		]
+	},
+	"properties": {
+		"iata": "WWR",
+		"airport": "West Woodward",
+		"city": "Woodward",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482700a"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.19415778,
+			36.48475778
+		]
+	},
+	"properties": {
+		"iata": "MDF",
+		"airport": "Mooreland Municipal",
+		"city": "Mooreland",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d87"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.77642361,
+			36.29553889
+		]
+	},
+	"properties": {
+		"iata": "GAG",
+		"airport": "Gage",
+		"city": "Gage",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a19"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.70343889,
+			35.60393694
+		]
+	},
+	"properties": {
+		"iata": "93F",
+		"airport": "Mignon Laird Municipal",
+		"city": "Cheyenne",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826e11"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.4036397,
+			35.89530778
+		]
+	},
+	"properties": {
+		"iata": "HHF",
+		"airport": "Hemphill County",
+		"city": "Canadian",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d08"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.1959481,
+			34.84561083
+		]
+	},
+	"properties": {
+		"iata": "F06",
+		"airport": "Marian Airpark",
+		"city": "Wellington",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d0e"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-100.5297008,
+			34.73958944
+		]
+	},
+	"properties": {
+		"iata": "F21",
+		"airport": "Memphis Municipal",
+		"city": "Memphis",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148270e7"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.90871194,
+			34.70839417
+		]
+	},
+	"properties": {
+		"iata": "O35",
+		"airport": "Hollis Municipal",
+		"city": "Hollis",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d06"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.75926861,
+			34.27708306
+		]
+	},
+	"properties": {
+		"iata": "F01",
+		"airport": "Quanah Municipal",
+		"city": "Quanah",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d07"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.28375,
+			34.22566806
+		]
+	},
+	"properties": {
+		"iata": "F05",
+		"airport": "Vernon - Wilbarger County",
+		"city": "Vernon",
+		"state": "TX",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826ae8"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.3381,
+			34.69878194
+		]
+	},
+	"properties": {
+		"iata": "AXS",
+		"airport": "Altus Municipal",
+		"city": "Altus",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826865"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.52675667,
+			34.89172583
+		]
+	},
+	"properties": {
+		"iata": "2K4",
+		"airport": "Scott ",
+		"city": "Mangum",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148268c3"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.65787361,
+			35.16755222
+		]
+	},
+	"properties": {
+		"iata": "3O4",
+		"airport": "Sayre Municipal",
+		"city": "Sayre",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826ccd"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.39425917,
+			35.42941083
+		]
+	},
+	"properties": {
+		"iata": "ELK",
+		"airport": "Elk City Municipal",
+		"city": "Elk City",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c06"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.20049944,
+			35.33983917
+		]
+	},
+	"properties": {
+		"iata": "CSM",
+		"airport": "Clinton-Sherman",
+		"city": "Clinton",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d16"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.96702167,
+			35.30421917
+		]
+	},
+	"properties": {
+		"iata": "F36",
+		"airport": "Cordell Municipal",
+		"city": "Cordell",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826bd3"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.932695,
+			35.53832778
+		]
+	},
+	"properties": {
+		"iata": "CLK",
+		"airport": "Clinton Municipal",
+		"city": "Clinton",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d2a"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.66849028,
+			35.54482944
+		]
+	},
+	"properties": {
+		"iata": "F91",
+		"airport": "Thomas P Stafford",
+		"city": "Weatherford",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148269f7"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.5806175,
+			35.12061417
+		]
+	},
+	"properties": {
+		"iata": "86F",
+		"airport": "Carnegie Municipal",
+		"city": "Carnegie",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826dfe"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-99.0513525,
+			34.9913075
+		]
+	},
+	"properties": {
+		"iata": "HBR",
+		"airport": "Hobart Municipal",
+		"city": "Hobart",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d3b"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.98460222,
+			34.35219472
+		]
+	},
+	"properties": {
+		"iata": "FDR",
+		"airport": "Frederick Municipal",
+		"city": "Frederick",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826816"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.74200917,
+			34.23758944
+		]
+	},
+	"properties": {
+		"iata": "1O1",
+		"airport": "Grandfield Municipal",
+		"city": "Grandfield",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826f57"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.41663667,
+			34.56771444
+		]
+	},
+	"properties": {
+		"iata": "LAW",
+		"airport": "Lawton-Ft Sill Regional",
+		"city": "Lawton",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148268c4"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.40588583,
+			34.37258444
+		]
+	},
+	"properties": {
+		"iata": "3O5",
+		"airport": "Walters Municipal",
+		"city": "Walters",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c7b"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.95986111,
+			34.470875
+		]
+	},
+	"properties": {
+		"iata": "DUC",
+		"airport": "Halliburton ",
+		"city": "Duncan",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826bb7"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.96618361,
+			35.09614694
+		]
+	},
+	"properties": {
+		"iata": "CHK",
+		"airport": "Chickasha Municipal",
+		"city": "Chickasha",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826870"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.34236111,
+			35.50592472
+		]
+	},
+	"properties": {
+		"iata": "2O8",
+		"airport": "Hinton Municipal",
+		"city": "Hinton",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d11"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.00599444,
+			35.47163639
+		]
+	},
+	"properties": {
+		"iata": "F28",
+		"airport": "El Reno Municipal",
+		"city": "El Reno",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d12"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.82354556,
+			35.4880825
+		]
+	},
+	"properties": {
+		"iata": "F29",
+		"airport": "Clarence E. Page Municipal",
+		"city": "Oklahoma City",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148270f7"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.3086825,
+			36.11253667
+		]
+	},
+	"properties": {
+		"iata": "O65",
+		"airport": "Okeene Municipal",
+		"city": "Okeene",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148269a5"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.47582833,
+			36.29014667
+		]
+	},
+	"properties": {
+		"iata": "6K4",
+		"airport": "Fairview Municipal",
+		"city": "Fairview",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826ef0"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.42075,
+			35.86469444
+		]
+	},
+	"properties": {
+		"iata": "JWG",
+		"airport": "Watonga",
+		"city": "Watonga",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826819"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.73063833,
+			35.73338222
+		]
+	},
+	"properties": {
+		"iata": "1O4",
+		"airport": "Thomas Municipal",
+		"city": "Thomas",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826805"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.85231333,
+			36.56670028
+		]
+	},
+	"properties": {
+		"iata": "1K5",
+		"airport": "Waynoka Municipal",
+		"city": "Waynoka",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826adc"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.66994611,
+			36.77317
+		]
+	},
+	"properties": {
+		"iata": "AVK",
+		"airport": "Alva Regional",
+		"city": "Alva",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826926"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-98.35035083,
+			36.78336306
+		]
+	},
+	"properties": {
+		"iata": "4O5",
+		"airport": "Cherokee Municipal",
+		"city": "Cherokee",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482743d"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.79111222,
+			36.37920333
+		]
+	},
+	"properties": {
+		"iata": "WDG",
+		"airport": "Enid Woodring Municipal",
+		"city": "Enid",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148270f1"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.74899722,
+			36.79058417
+		]
+	},
+	"properties": {
+		"iata": "O53",
+		"airport": "Medford Municipal",
+		"city": "Medford",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148271b6"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.09976833,
+			36.73058417
+		]
+	},
+	"properties": {
+		"iata": "PNC",
+		"airport": "Ponca City Municipal",
+		"city": "Ponca City",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826924"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.34959972,
+			36.74511583
+		]
+	},
+	"properties": {
+		"iata": "4O3",
+		"airport": "Blackwell-Tonkawa Municipal",
+		"city": "Blackwell-Tonkawa",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827342"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.08577028,
+			36.16025194
+		]
+	},
+	"properties": {
+		"iata": "SWO",
+		"airport": "Stillwater Regional",
+		"city": "Stillwater",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826df5"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.8103125,
+			36.38338556
+		]
+	},
+	"properties": {
+		"iata": "H97",
+		"airport": "Pawnee Municipal",
+		"city": "Pawnee",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a1c"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.46418833,
+			36.28340306
+		]
+	},
+	"properties": {
+		"iata": "95F",
+		"airport": "Cleveland Municipal",
+		"city": "Cleveland",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148268a9"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.42185556,
+			35.80685278
+		]
+	},
+	"properties": {
+		"iata": "3F7",
+		"airport": "Jones Memorial",
+		"city": "Bristow",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827334"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.65862861,
+			35.78756833
+		]
+	},
+	"properties": {
+		"iata": "SUD",
+		"airport": "Stroud Municipal",
+		"city": "Stroud",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826bf8"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.82027306,
+			35.72381556
+		]
+	},
+	"properties": {
+		"iata": "CQB",
+		"airport": "Chandler Municipal",
+		"city": "Chandler",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826c0f"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.77305278,
+			35.949925
+		]
+	},
+	"properties": {
+		"iata": "CUH",
+		"airport": "Cushing Municipal",
+		"city": "Cushing",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826dc0"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.41560833,
+			35.84980556
+		]
+	},
+	"properties": {
+		"iata": "GOK",
+		"airport": "Guthrie Municipal",
+		"city": "Guthrie",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826d0f"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.27721083,
+			36.38559583
+		]
+	},
+	"properties": {
+		"iata": "F22",
+		"airport": "Perry Municipal",
+		"city": "Perry",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148271f0"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.64721556,
+			35.53455
+		]
+	},
+	"properties": {
+		"iata": "PWA",
+		"airport": "Wiley Post",
+		"city": "Oklahoma City",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482711d"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.60073389,
+			35.39308833
+		]
+	},
+	"properties": {
+		"iata": "OKC",
+		"airport": "Will Rogers World",
+		"city": "Oklahoma City",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826804"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.47039389,
+			35.1550675
+		]
+	},
+	"properties": {
+		"iata": "1K4",
+		"airport": "David J. Perry",
+		"city": "Goldsby",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827156"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.47212861,
+			35.24556444
+		]
+	},
+	"properties": {
+		"iata": "OUN",
+		"airport": "University of Oklahoma Westheimer",
+		"city": "Norman",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826803"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.58642028,
+			34.85007333
+		]
+	},
+	"properties": {
+		"iata": "1K2",
+		"airport": "Lindsay Municipal",
+		"city": "Lindsay",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148268c2"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.38586167,
+			34.97979444
+		]
+	},
+	"properties": {
+		"iata": "3O3",
+		"airport": "Municipal",
+		"city": "Purcell",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482730d"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.94282833,
+			35.35730333
+		]
+	},
+	"properties": {
+		"iata": "SNL",
+		"airport": "Shawnee Municipal",
+		"city": "Shawnee",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b60650081148270ee"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.71862944,
+			35.48201417
+		]
+	},
+	"properties": {
+		"iata": "O47",
+		"airport": "Prague Municipal",
+		"city": "Prague",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826793"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.15181028,
+			36.17528
+		]
+	},
+	"properties": {
+		"iata": "0F8",
+		"airport": "William R Pogue Municipal",
+		"city": "Sand Springs",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826df3"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.38362861,
+			36.43340222
+		]
+	},
+	"properties": {
+		"iata": "H92",
+		"airport": "Hominy",
+		"city": "Hominy",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826854"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.01138556,
+			36.357035
+		]
+	},
+	"properties": {
+		"iata": "2F6",
+		"airport": "Skiatook Municipal",
+		"city": "Skiatook",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826b5f"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.01115167,
+			36.76247611
+		]
+	},
+	"properties": {
+		"iata": "BVO",
+		"airport": "Bartlesville Municipal",
+		"city": "Bartlesville",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826bac"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-95.57189417,
+			37.0940475
+		]
+	},
+	"properties": {
+		"iata": "CFV",
+		"airport": "Coffeyville Municipal",
+		"city": "Coffeyville",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826def"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-95.62525583,
+			36.72092222
+		]
+	},
+	"properties": {
+		"iata": "H66",
+		"airport": "Nowata Municipal",
+		"city": "Nowata",
+		"state": "OK",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826e95"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-95.77838333,
+			37.15837222
+		]
+	},
+	"properties": {
+		"iata": "IDP",
+		"airport": "Independence Municipal",
+		"city": "Independence",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826ce3"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-96.81762778,
+			37.77410833
+		]
+	},
+	"properties": {
+		"iata": "EQA",
+		"airport": "Captain Jack Thomas",
+		"city": "El Dorado",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b606500811482689c"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.07787222,
+			37.67162778
+		]
+	},
+	"properties": {
+		"iata": "3AU",
+		"airport": "Augusta Municipal",
+		"city": "Augusta",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827441"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.03752194,
+			37.16861556
+		]
+	},
+	"properties": {
+		"iata": "WLD",
+		"airport": "Strother ",
+		"city": "Winfield/Arkansas City",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826cbc"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.38732333,
+			37.32441028
+		]
+	},
+	"properties": {
+		"iata": "EGT",
+		"airport": "Wellington Municipal",
+		"city": "Wellington",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826e91"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.43304583,
+			37.64995889
+		]
+	},
+	"properties": {
+		"iata": "ICT",
+		"airport": "Wichita Mid-Continent",
+		"city": "Wichita",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826a53"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.22113889,
+			37.74755556
+		]
+	},
+	"properties": {
+		"iata": "AAO",
+		"airport": "Colonel James Jabara",
+		"city": "Wichita",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114826cfa"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.27522861,
+			38.05710528
+		]
+	},
+	"properties": {
+		"iata": "EWK",
+		"airport": "Newton-City-County",
+		"city": "Newton",
+		"state": "KS",
+		"country": "USA"
+	}
+},
+{
+	"_id": {
+		"$oid": "58c9219b6065008114827063"
+	},
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-97.69133028,
+			38.35243722
+		]
+	},
+	"properties": {
+		"iata": "MPR",
+		"airport": "McPherson",
+		"city": "McPherson",
+		"state": "KS",
+		"country": "USA"
+	}
+}]
+}
