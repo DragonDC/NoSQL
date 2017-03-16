@@ -8,7 +8,7 @@ Wybrany zbiór danych: [Transportation - Airlines(2008)](http://stat-computing.o
      [Zadanie GEO](https://dragondc.github.io/NoSQL/)  
      
      Zadanie1  
-     Zbiór danych - [AI](https://archive.org/download/stackexchange/ai.stackexchange.com.7z)  
+     Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
      
 - [ ] Aggregation Pipeline
 
