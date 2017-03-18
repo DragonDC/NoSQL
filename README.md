@@ -55,8 +55,8 @@ Users - 14807
 Przykład kodu, który był potrzebny do sparsowania niektórych pól na Inta.  
 ```
 db.Posts.find({Score: {$exists: true}}).forEach(function(obj) {  
-   obj.Score = new NumberInt(obj.Score);  
-   db.Posts.save(obj);  
+	obj.Score = new NumberInt(obj.Score);  
+   	db.Posts.save(obj);  
 });     
 ```
 
@@ -64,9 +64,9 @@ db.Posts.find({Score: {$exists: true}}).forEach(function(obj) {
 ```
 db.Posts.aggregate(  
    [  
-     { $sort: { Score: -1 } },  
-	    { $limit : 10 },  
-	    { $project : { _id: 0, Score : 1 , Body : 1  } }   
+        { $sort: { Score: -1 } },  
+	{ $limit : 10 },  
+	{ $project : { _id: 0, Score : 1 , Body : 1  } }   
    ]  
 ).pretty()  
 ```     
@@ -89,10 +89,10 @@ Ze względu na sporą treść postów zostały one zamienione na Id postu
 ```
 db.Posts.aggregate(  
    [  
-     { $group : {_id: {id: "$Id", wyswietlenia: "$ViewCount"}}},  
-     { $sort : { "_id.wyswietlenia": -1 } },  
-	    { $limit : 10 },  
-	    { $project : { _id: 1} }   
+	{ $group : {_id: {id: "$Id", wyswietlenia: "$ViewCount"}}},  
+        { $sort : { "_id.wyswietlenia": -1 } },  
+	{ $limit : 10 },  
+	{ $project : { _id: 1} }   
    ]  
 ).pretty()  
 ```
@@ -114,14 +114,14 @@ db.Posts.aggregate(
 ```
 db.Posts.createIndex(  
    {  
-     Tags: "text"  
+     	Tags: "text"  
    }  
 )  
 
 db.Posts.aggregate(  
    [  
-     { $match: { $text: { $search: "\"air-traffic-control\"" } } },  
-     { $count: "Air traffic control instances"}  
+     	{ $match: { $text: { $search: "\"air-traffic-control\"" } } },  
+     	{ $count: "Air traffic control instances"}  
    ]  
 )  
 ```
@@ -131,15 +131,15 @@ Wynik to 461 postów, które dotyczą aircraft-failure.
 # Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
 ```
 db.Posts.aggregate(  
-	[
-	  { $lookup : {from:"Users", localField:"OwnerUserId", foreignField: "Id", as:"users_posts"}},  
-	  { $group: {  
-        _id: "$users_posts.DisplayName", posts_owned: { $sum: 1 }   
-   }},  
-	  { $sort : { posts_owned: -1 } },  
-	  { $limit : 10 },  
-      { $project : { "users_posts.DisplayName" : 1, posts_owned: 1} }  	  
-	]  
+  [
+	{ $lookup : {from:"Users", localField:"OwnerUserId", foreignField: "Id", as:"users_posts"}},  
+	{ $group: {  
+        	_id: "$users_posts.DisplayName", posts_owned: { $sum: 1 }   
+   	}},  
+	{ $sort : { posts_owned: -1 } },  
+	{ $limit : 10 },  
+      	{ $project : { "users_posts.DisplayName" : 1, posts_owned: 1} }  	  
+  ]  
 ).pretty()  
 ```
 
