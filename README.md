@@ -4,14 +4,14 @@ Wybrany zbiór danych: [Transportation - Airlines(2008)](http://stat-computing.o
 
 (zaliczenie)
 
-- [ ] EDA  
-     [Zadanie GEO](https://dragondc.github.io/NoSQL/)  
+ 
+     # [Zadanie GEO](https://dragondc.github.io/NoSQL/)  
      
-     Zadanie1  
+     # Zadanie1  
      Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
      
      
-     #### Mongo
+     ## Mongo
      
      # Import danych do bazy
      ```
