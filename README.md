@@ -23,7 +23,7 @@ Wybrany zbiór danych: [Transportation - Airlines(2008)](http://stat-computing.o
      <code>mongoimport --db zadanie1 --collection Users --file  d:\Damian\NoSQL\Airlines\Zad1\Users.json --jsonArray</code>  
      <code>mongoimport --db zadanie1 --collection Votes --file  d:\Damian\NoSQL\Airlines\Zad1\Votes.json --jsonArray</code>  
      
-     # Liczność danych  
+     #Liczność danych  
      
      Polecenie, przykład <code>db.Users.count()</code>  
      Badges - 40589  
@@ -36,12 +36,12 @@ Wybrany zbiór danych: [Transportation - Airlines(2008)](http://stat-computing.o
      
      
      Przykład kodu, który był potrzebny do sparsowania niektórych pól na Inta.  
-     <code>
+     ```
      db.Posts.find({Score: {$exists: true}}).forEach(function(obj) {  
           obj.Score = new NumberInt(obj.Score);  
           db.Posts.save(obj);  
      });     
-     </code>
+     ```
      
      
 - [ ] Aggregation Pipeline
