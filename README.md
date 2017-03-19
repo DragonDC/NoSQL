@@ -49,7 +49,8 @@ PostHistory - 89048
 PostLinks - 6285  
 Posts - 25695  
 Tags - 759  
-Users - 14807  
+Users - 14807
+Votes - 225617
      
      
 Przykład kodu, który był potrzebny do sparsowania niektórych pól na Inta.  
