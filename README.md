@@ -111,7 +111,7 @@ db.Posts.aggregate(
 | 64      | 60557    |
 | 1210    | 59352    |
 
-# Agregacja 3. Policzenie postów które dotyczą aircraft-failure.
+# Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
 ```
 db.Posts.createIndex(  
    {  
