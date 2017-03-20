@@ -100,16 +100,16 @@ db.Posts.aggregate(
 
 | Id      | Wyświetlenia |
 |---------|--------------|
-| 2078    | 131514    |
-| 3300    | 124009    |
-| 4966    | 96327    |
-| 1418    | 91792    |
-| 1807    | 72069    |
-| 738     | 69349    |
-| 8000    | 67530    |
-| 34586   | 63592    |     
-| 64      | 60557    |
-| 1210    | 59352    |
+| 2078    | 131514       |
+| 3300    | 124009       |
+| 4966    | 96327        |
+| 1418    | 91792        |
+| 1807    | 72069        |
+| 738     | 69349        |
+| 8000    | 67530        |
+| 34586   | 63592        |     
+| 64      | 60557        |
+| 1210    | 59352        |
 
 ## Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
 ```
@@ -220,6 +220,122 @@ CREATE TABLE Posts (
 	CommentCount INTEGER
 );						
 ```  
+
+## Import danych do bazy
+```
+\copy Tags FROM 'd:\Damian\NoSQL\Airlines\Zad1\Tags.csv' DELIMITER ';' CSV HEADER
+\copy Users FROM 'd:\Damian\NoSQL\Airlines\Zad1\Users.csv' DELIMITER ';' CSV HEADER
+\copy Posts FROM 'd:\Damian\NoSQL\Airlines\Zad1\Posts.csv' DELIMITER ';' CSV HEADER
+```  
+
+## Czas importu do bazy  
+
+Przykładowe polecenie  
+```
+\timing \copy Tags FROM 'd:\Damian\NoSQL\Airlines\Zad1\Tags.csv' DELIMITER ';' CSV HEADER
+```  
+
+| Plik           | Czas w ms  |
+|----------------|------------|
+| Tags           | 2,291      |
+| Users          | 103,621    |
+| Posts          | 226,924    |
+
+
+## Liczebność danych  
+     
+Przykładowe polecenie <code>SELECT COUNT(*) FROM Tags;</code>   
+Tags - 759  
+Users - 14807  
+Posts - 25695  
+
+
+## Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
+```
+SELECT Id,Score 
+FROM Posts 
+ORDER BY Score 
+DESC LIMIT 10;
+```  
+
+| Id         | Wynik  |
+|------------|--------|
+| 2081       | 233    |
+| 2078       | 186    |
+| 21988      | 142    |
+| 16553      | 126    |
+| 738        | 122    |
+| 22987      | 121    |
+| 29809      | 120    |
+| 24509      | 115    |     
+| 2884       | 113    |
+| 26630      | 105    |
+
+
+## Agregacja 2. Wyświetlenie 10 najczęściej odwiedzanych postów
+```
+SELECT Id,ViewCount 
+FROM Posts 
+WHERE ViewCount > 0
+ORDER BY ViewCount 
+DESC LIMIT 10; 
+```  
+
+| Id      | Wyświetlenia |
+|---------|--------------|
+| 2078    | 131514       |
+| 3300    | 124009       |
+| 4966    | 96327        |
+| 1418    | 91792        |
+| 1807    | 72069        |
+| 738     | 69349        |
+| 8000    | 67530        |
+| 34586   | 63592        |     
+| 64      | 60557        |
+| 1210    | 59352        |
+
+
+## Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
+```
+SELECT COUNT(*) FROM Posts 
+WHERE Tags Like '%air-traffic-control%'; 
+```
+
+Wynikiem to 461 postów, które dotyczą air-traffic-control.
+
+
+## Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
+```
+SELECT DisplayName, COUNT(*) FROM Posts 
+JOIN Users 
+ON Users.Id = Posts.OwnerUserId
+GROUP BY DisplayName
+ORDER BY Count 
+DESC LIMIT 10; 
+```  
+
+| Nick            | Ilość postów |
+|-----------------|--------------|
+| Peter Kämpf     | 1094   |
+| aeroalias       | 817    |
+| voretaq7        | 531    |
+| fooot           | 525    |
+| Dave            | 506    |
+| Pondlife        | 491    |
+| Lnafziger       | 447    |
+| DeltaLima       | 396    |     
+| ymb1            | 329    |
+| Carlo Felicione | 323    |
+
+
+## Czas wykonania poszczególnych agregacji
+
+| Agregacja | Czas w ms |
+|-----------|-----------|
+| 1         | 6,649     |
+| 2         | 23,228    |
+| 3         | 4,715     |
+| 4         | 18,428    |
 
 
 
