@@ -301,7 +301,7 @@ SELECT COUNT(*) FROM Posts
 WHERE Tags Like '%air-traffic-control%'; 
 ```
 
-Wynikiem to 461 postów, które dotyczą air-traffic-control.
+Wynik to 461 postów, które dotyczą air-traffic-control.
 
 
 ## Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
@@ -336,6 +336,17 @@ DESC LIMIT 10;
 | 2         | 23,228    |
 | 3         | 4,715     |
 | 4         | 18,428    |
+
+
+# Porównanie czasu wykonania agregacji dla PostgreSQL oraz Mongo
+
+| Agregacja | Mongo   | PostgreSQL |
+|-----------|---------|------------|
+| 1         | 40ms    | 6,649ms    |
+| 2         | 68ms    | 23,228ms   | 
+| 3         | 8ms     | 4,715ms    |
+| 4         | 3,14min | 18,428ms   |
+
 
 
 
