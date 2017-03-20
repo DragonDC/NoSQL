@@ -168,7 +168,61 @@ db.Posts.aggregate(
 | 3         | 8ms     |
 | 4         | 3,14min |
 
-     
+
+# PostgreSQL
+
+## Stworzenie tabel 
+
+Tags  
+```
+CREATE TABLE Tags (
+	Id BIGINT,
+	TagName VARCHAR,
+	Count INTEGER,
+	ExcerptPostId BIGINT,
+	WikiPostId BIGINT
+);
+```  
+
+Users  
+```
+CREATE TABLE Users (
+	Id BIGINT,
+	Reputation INTEGER,
+	CreationDate DATE,
+	DisplayName VARCHAR,
+	LastAccessDate DATE,
+	WebsiteUrl VARCHAR,
+	Location VARCHAR,
+	Views INTEGER,
+	UpVotes INTEGER,
+	DownVotes INTEGER,
+	AccountId BIGINT
+);		
+```  
+
+Posts
+```
+CREATE TABLE Posts (
+	Id BIGINT,
+	PostTypeId BIGINT,
+	AcceptedAnswerId BIGINT,
+	CreationDate DATE,
+	Score INTEGER,
+	ViewCount INTEGER,
+	OwnerUserId BIGINT,
+	LastEditorUserId BIGINT,
+	LastEditDate DATE,
+	LastActivityDate DATE,
+	Title VARCHAR,
+	Tags VARCHAR,
+	AnswerCount INTEGER,
+	CommentCount INTEGER
+);						
+```  
+
+
+
 - [ ] Aggregation Pipeline
 
 (egzamin)
@@ -186,4 +240,4 @@ Informacje o komputerze na którym były wykonywane obliczenia:
 | Baza danych           | TODO |
 
 
-# PostgreSQL
+
