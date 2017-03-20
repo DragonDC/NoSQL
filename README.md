@@ -9,7 +9,7 @@ Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.s
         
 # Mongo
      
-# Import danych do bazy
+## Import danych do bazy
 ```
 mongoimport --db zadanie1 --collection Badges --file  d:\Damian\NoSQL\Airlines\Zad1\Badges.json --jsonArray  
 mongoimport --db zadanie1 --collection Comments --file  d:\Damian\NoSQL\Airlines\Zad1\Comments.json --jsonArray    
@@ -21,7 +21,7 @@ mongoimport --db zadanie1 --collection Users --file  d:\Damian\NoSQL\Airlines\Za
 mongoimport --db zadanie1 --collection Votes --file  d:\Damian\NoSQL\Airlines\Zad1\Votes.json --jsonArray  
 ```  
      
-# Czas importu dokumentów do bazy  
+## Czas importu dokumentów do bazy  
      
 Przykładowe polecenie  
 ```
@@ -40,7 +40,7 @@ Przykładowe polecenie
 | Votes          | 3304,2604  |
      
      
-# Liczebność danych  
+## Liczebność danych  
      
 Przykładowe polecenie <code>db.Users.count()</code>  
 Badges - 40589  
@@ -61,7 +61,7 @@ db.Posts.find({Score: {$exists: true}}).forEach(function(obj) {
 });     
 ```
 
-# Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
+## Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
 ```
 db.Posts.aggregate(  
    [  
@@ -86,7 +86,7 @@ Ze względu na sporą treść postów zostały one zamienione na Id postu
 | 2884       | 113    |
 | 26630      | 105    |
 
-# Agregacja 2. Wyświetlenie 10 najczęściej odwiedzanych postów
+## Agregacja 2. Wyświetlenie 10 najczęściej odwiedzanych postów
 ```
 db.Posts.aggregate(  
    [  
@@ -111,7 +111,7 @@ db.Posts.aggregate(
 | 64      | 60557    |
 | 1210    | 59352    |
 
-# Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
+## Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
 ```
 db.Posts.createIndex(  
    {  
@@ -129,7 +129,7 @@ db.Posts.aggregate(
 
 Wynik to 461 postów, które dotyczą air-traffic-control.
 
-# Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
+## Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
 ```
 db.Posts.aggregate(  
   [
@@ -158,7 +158,7 @@ db.Posts.aggregate(
 | Carlo Felicione | 323    |
 
 
-# Czas wykonania poszczególnych agregacji
+## Czas wykonania poszczególnych agregacji
 
 
 | Agregacja | Czas    |
