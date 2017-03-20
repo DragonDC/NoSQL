@@ -7,7 +7,7 @@ Wybrany zbiór danych: [Transportation - Airlines(2008)](http://stat-computing.o
 # Zadanie1  
 Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
         
-## Mongo
+# Mongo
      
 # Import danych do bazy
 ```
@@ -127,7 +127,7 @@ db.Posts.aggregate(
 )  
 ```
 
-Wynik to 461 postów, które dotyczą aircraft-failure.
+Wynik to 461 postów, które dotyczą air-traffic-control.
 
 # Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
 ```
@@ -184,3 +184,6 @@ Informacje o komputerze na którym były wykonywane obliczenia:
 | Pamięć                | 8GB |
 | Dysk                  | Hitachi Travelstar 7K1000 1TB |
 | Baza danych           | TODO |
+
+
+# PostgreSQL
