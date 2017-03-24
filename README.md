@@ -26,7 +26,20 @@ Przykładowy rekord
     	"country":"USA"
     }
 }
-```
+```  
+
+Wyjaśnienie pól 
+
+| Pole        | Znaczenie                                         |
+|-------------|---------------------------------------------------|
+| iata        | Skrótowy kod międzynarodowego portu lotniczego    |
+| airport     | Nazwa portu lotniczego                            |
+| city        | Nazwa miasta do którego przynależy dane lotnisko  |
+| state       | Stan USA w którym znajduje się dany port          |
+| country     | Państwo do którego należy dany port lotniczy      |
+| coordinates | Długość i szerokość geograficzna portu lotniczego |
+
+
      
 # Zadanie1  
 Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
