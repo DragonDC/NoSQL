@@ -69,10 +69,7 @@ db.Airports.find({
 	}
 })
 ```  
-
-```
-https://embed.github.com/view/geojson/DragonDC/NoSQL/master/wynik1.geojson
-```
+[Wynik1](https://github.com/DragonDC/NoSQL/blob/master/wynik1.geojson)
 
 2. Lotniska oddalone od lotniska Yuma Municipal(-102.7129869,40.10415306) w przedziale od 400km do 1000km
 ```
