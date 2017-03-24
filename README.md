@@ -55,6 +55,51 @@ db.createCollection("Airports")
 ```
 mongoimport --db Geo --collection Airports --file  d:\Damian\NoSQL\Airlines\geo_airports.json --jsonArray
 ```
+
+### Zapytania  
+1. Lotniska oddalone o ponad 1000km od lotniska Thigpen(-89.23450472,31.95376472)
+```
+db.Airports.find({ 
+	geometry: {
+	   $near: {
+	      $geometry: {
+	         type: 'Point', coordinates: [-89.23450472,31.95376472]
+	      }, $minDistance: 1000000
+	   }
+	}
+})
+```  
+[Wynik1](https://github.com/DragonDC/NoSQL/master/wynik1.geojson)
+
+
+2. Lotniska oddalone od lotniska Yuma Municipal(-102.7129869,40.10415306) w przedziale od 400km do 1000km
+```
+db.Airports.find({ 
+	geometry: {
+	   $near: {
+	      $geometry: {
+	         type: 'Point', coordinates: [-102.7129869,40.10415306]
+	      }, $minDistance: 400000, $maxDistance: 1000000 
+	   }
+	}
+})	
+```  
+[Wynik2](https://github.com/DragonDC/NoSQL/master/wynik2.geojson)
+
+3. Lotniska znajdujące się w obrębie pięciokąta
+```
+db.Airports.find({ 
+	geometry: {
+	   $geoWithin: {
+	      $geometry: {
+	         type : 'Polygon', coordinates: [[[ -102.077029, 41.052873 ], [ -95.236718, 37.044054 ], 
+		 [ -99.447158, 32.029309 ], [ -104.222035, 32.065320], [-109.057755, 37.023279], [ -102.077029, 41.052873 ]]]
+	      }
+	   }
+	} 
+})
+```  
+[Wynik3](https://github.com/DragonDC/NoSQL/master/wynik3.geojson)
      
 # Zadanie1  
 Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
