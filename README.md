@@ -39,7 +39,22 @@ Wyjaśnienie pól
 | country     | Państwo do którego należy dany port lotniczy      |
 | coordinates | Długość i szerokość geograficzna portu lotniczego |
 
+## Mongo
 
+1. Stworzenie nowej bazy Geo
+```
+use Geo
+```
+
+2. Stworzenie kolekcji Airports  
+```
+db.createCollection("Airports")
+```
+
+3. Import danych do bazy
+```
+mongoimport --db Geo --collection Airports --file  d:\Damian\NoSQL\Airlines\geo_airports.json --jsonArray
+```
      
 # Zadanie1  
 Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
