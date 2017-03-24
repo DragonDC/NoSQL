@@ -69,7 +69,8 @@ db.Airports.find({
 	}
 })
 ```  
-[Wynik1](https://github.com/DragonDC/NoSQL/blob/master/wynik1.geojson)
+[Wynik1](https://github.com/DragonDC/NoSQL/blob/master/wynik1.geojson)  
+
 
 2. Lotniska oddalone od lotniska Yuma Municipal(-102.7129869,40.10415306) w przedziale od 400km do 1000km
 ```
@@ -83,7 +84,8 @@ db.Airports.find({
 	}
 })	
 ```  
-[Wynik2](https://github.com/DragonDC/NoSQL/blob/master/wynik2.geojson)
+[Wynik2](https://github.com/DragonDC/NoSQL/blob/master/wynik2.geojson)  
+
 
 3. Lotniska znajdujące się w obrębie pięciokąta
 ```
@@ -99,7 +101,13 @@ db.Airports.find({
 	} 
 })
 ```  
-[Wynik3](https://github.com/DragonDC/NoSQL/blob/master/wynik3.geojson)
+[Wynik3](https://github.com/DragonDC/NoSQL/blob/master/wynik3.geojson)  
+
+### Przykład eksportu wyniku zapytania
+```
+mongoexport -d Geo -c Airports -q "{ 
+	geometry: {$near: {$geometry: {type: 'Point', coordinates: [-89.23450472,31.95376472]}, $minDistance: 1000000}}}" -o 		d:\Damian\NoSQL\Airlines\mongo_export\wynik1.json --jsonArray --pretty
+```
      
 # Zadanie1  
 Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
