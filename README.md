@@ -8,7 +8,25 @@ W tym zadaniu wykorzystano bazę danych zawierającą porty lotnicze w USA.
 Zbiór danych - [Airports](http://stat-computing.org/dataexpo/2009/airports.csv)  
 Jest to plik csv zajmujący 239KB zawierający podstawowe informacje o portach lotniczych.    
 Został on skonwertowany do formatu json przy użyciu [tej](http://www.convertcsv.com/csv-to-geojson.htm) strony.
-Po konwersji plik zajmuje 473KB.
+Po konwersji plik zajmuje 945KB.  
+
+Przykładowy rekord  
+```
+{
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.5698933,38.94574889 ]
+    },
+    "properties": {
+    	"iata":"00V",
+    	"airport":"Meadow Lake",
+    	"city":"Colorado Springs",
+    	"state":"CO",
+    	"country":"USA"
+    }
+}
+```
      
 # Zadanie1  
 Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
