@@ -106,7 +106,8 @@ db.Airports.find({
 ### Przykład eksportu wyniku zapytania
 ```
 mongoexport -d Geo -c Airports -q "{ 
-	geometry: {$near: {$geometry: {type: 'Point', coordinates: [-89.23450472,31.95376472]}, $minDistance: 1000000}}}" -o 		d:\Damian\NoSQL\Airlines\mongo_export\wynik1.json --jsonArray --pretty
+	geometry: {$near: {$geometry: {type: 'Point', coordinates: [-89.23450472,31.95376472]}, $minDistance: 1000000}}}" -o
+	d:\Damian\NoSQL\Airlines\mongo_export\wynik1.json --jsonArray --pretty
 ```
      
 # Zadanie1  
