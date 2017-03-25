@@ -1,5 +1,5 @@
 #1. Delete all blank lines from file
-file = "convertcsv.geojson"
+file = sys.argv[1]
 with open(file,"r") as fin:
     lines=fin.readlines()
 with open(file,"w") as fin:  
