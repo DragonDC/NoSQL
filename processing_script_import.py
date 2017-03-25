@@ -1,3 +1,5 @@
+import sys
+
 #1. Delete all blank lines from file
 file = sys.argv[1]
 with open(file,"r") as fin:
