@@ -109,7 +109,10 @@ mongoexport -d Geo -c Airports -q "{
 	geometry: {$near: {$geometry: {type: 'Point', coordinates: [-89.23450472,31.95376472]}, $minDistance: 1000000}}}" -o
 	d:\Damian\NoSQL\Airlines\mongo_export\wynik1.json --jsonArray --pretty
 ```
-     
+
+Instrukcja umożliwiająca odtworzenie powyższych wyników na swoim komputerze znajduje się [tutaj](https://github.com/DragonDC/NoSQL/blob/master/User_manual.txt)
+
+
 # Zadanie1  
 Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
 W tym zadaniu wykorzystano zbiór danych o tematyce lotniczej. Spakowane dane zajmują na dysku 31,6MB. Po rozpakowaniu wszystkie dane zajmują 174MB. Na zbiór danych składa się 8 plików w formacie xml (Badges, Comments, PostsHistory, PostLinks, Posts, Tags, Users, Votes). Przy użyciu prostego programu Xml ValidatorBuddy wszystkie pliki zostały skonwertowane najpierw do formatu json a w późniejszym etapie do postaci csv, która była potrzebna przy importowaniu plików do postgresqla. Cały zbiór danych zawiera 464 311 rekordów.   
