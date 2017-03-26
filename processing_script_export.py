@@ -1,20 +1,24 @@
 import sys
-#python processing_script_export.py wynik3.geojson
+import os.path
 
-#1. Delete all blank lines from file
-file = sys.argv[1]
-with open(file,"r") as fin:
-    lines=fin.readlines()
-with open(file,"w") as fin:  
-    [fin.write(line) for line in lines if line.strip() ]
-	
-f = open(file, "r")
-data = f.readlines()
-f.close()
+if (os.path.exists(sys.argv[1])):
+	#1. Delete all blank lines from file
+	file = sys.argv[1]
+	with open(file,"r") as fin:
+	    lines=fin.readlines()
+	with open(file,"w") as fin:  
+	    [fin.write(line) for line in lines if line.strip() ]
 
-data.insert(0, "{\n \"type\": \"FeatureCollection\",\n \"features\": \n")
+	f = open(file, "r")
+	data = f.readlines()
+	f.close()
 
-f = open(file, "w")
-data = "".join(data)
-f.write(data+'}')
-f.close()		
+	data.insert(0, "{\n \"type\": \"FeatureCollection\",\n \"features\": \n")
+
+	f = open(file, "w")
+	data = "".join(data)
+	f.write(data+'}')
+	f.close()
+	print("OK")	
+else:
+	print("ERROR, couldn't find appropriate file")
