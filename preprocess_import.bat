@@ -1,0 +1,1 @@
+python C:\Mongo\Python_scripts\processing_script_import.py C:\Mongo\Mongo_import\convertcsv.geojson
