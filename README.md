@@ -137,10 +137,10 @@ Wyjaśnienie pól
 | OwnerUserId  | Id użytkownika który napisał posta |
 | LastEditDate | Data ostatniej modyfikacji posta   |
 | CommentCount | Ilość komentarzy do danego posta   |
-  
-  
-  
-  
+<br />  
+<br /> 
+<br />  
+<br />  
 Przykładowy rekord w Tags.json  
 ```
 {
@@ -156,10 +156,10 @@ Wyjaśnienie pól
 |---------|-------------------------------------|
 | TagName | Nazwa taga                          |
 | Count   | Ilość postów która posiada taki tag |
-  
-  
-  
-  
+<br />  
+<br />  
+<br />  
+<br />  
 Przykładowy rekord w Users.json
 ```
 {
@@ -189,10 +189,10 @@ Wyjaśnienie pól
 | DownVotes       | Głosy na nie              |
 | ProfileImageUrl | Zdjęcie profilowe         |
 | Age             | Wiek użytkownika          |
-  
-  
-  
-  
+<br />  
+<br />  
+<br />  
+<br />  
 
 
 # Mongo
