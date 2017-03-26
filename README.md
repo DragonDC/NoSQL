@@ -112,7 +112,88 @@ mongoexport -d Geo -c Airports -q "{
      
 # Zadanie1  
 Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
-W tym zadaniu wykorzystano zbiór danych o tematyce lotniczej. Spakowane dane zajmują na dysku 31,6MB. Po rozpakowaniu wszystkie dane zajmują 174MB. Na zbiór danych składa się 8 plików w formacie xml. Przy użyciu prostego programu Xml ValidatorBuddy wszystkie pliki zostały skonwertowane najpierw do formatu json a w późniejszym etapie do postaci csv, która była potrzebna przy importowaniu plików do postgresqla. Cały zbiór danych zawiera 464 311 rekordów.   
+W tym zadaniu wykorzystano zbiór danych o tematyce lotniczej. Spakowane dane zajmują na dysku 31,6MB. Po rozpakowaniu wszystkie dane zajmują 174MB. Na zbiór danych składa się 8 plików w formacie xml (Badges, Comments, PostsHistory, PostLinks, Posts, Tags, Users, Votes). Przy użyciu prostego programu Xml ValidatorBuddy wszystkie pliki zostały skonwertowane najpierw do formatu json a w późniejszym etapie do postaci csv, która była potrzebna przy importowaniu plików do postgresqla. Cały zbiór danych zawiera 464 311 rekordów.   
+
+Przykładowy rekord w Posts.json
+```
+{
+	"Id": "710",
+	"CreationDate": "2014-01-08T02:25:11.510",
+	"Score": "0",
+	"Body": "Takeoff is the first phase of flight, when an aircraft lifts off from the runway or other surface",
+	"OwnerUserId": "327",
+	"LastEditDate": "2014-10-31T19:17:13.550",
+	"CommentCount": "0"
+}
+```  
+
+Wyjaśnienie pól 
+
+| Pole         | Znaczenie                          |
+|--------------|------------------------------------|
+| CreationDate | Data utworzenia posta              |
+| Score        | Ilość punktów otrzymana za posta   |
+| Body         | Treść posta                        |
+| OwnerUserId  | Id użytkownika który napisał posta |
+| LastEditDate | Data ostatniej modyfikacji posta   |
+| CommentCount | Ilość komentarzy do danego posta   |
+
+
+
+
+Przykładowy rekord w Tags.json  
+```
+{
+	"Id": "17",
+	"TagName": "flight-training",
+	"Count": "209"
+}
+```
+
+Wyjaśnienie pól 
+
+| Pole    | Znaczenie                           |
+|---------|-------------------------------------|
+| TagName | Nazwa taga                          |
+| Count   | Ilość postów która posiada taki tag |
+
+
+
+
+Przykładowy rekord w Users.json
+```
+{
+	"Id": "1961",
+	"Reputation": "106319",
+	"CreationDate": "2014-04-01T12:08:36.283",
+	"DisplayName": "Peter Kämpf",
+	"LastAccessDate": "2017-03-13T19:02:50.763",
+	"Views": "4046",
+	"UpVotes": "3572",
+	"DownVotes": "29",
+	"ProfileImageUrl": "https://i.stack.imgur.com/wmtsV.jpg",
+	"Age": "56"
+}
+```  
+
+Wyjaśnienie pól 
+
+| Pole            | Znaczenie                 |
+|-----------------|---------------------------|
+| Reputation      | Punkty reputacji          |
+| CreationDate    | Data stworzenia konta     |
+| DisplayName     | Nazwa użytkownika         |
+| LastAccessDate  | Data ostatniego logowania |
+| Views           | Ilość wyświetleń profilu  |
+| UpVotes         | Głosy na tak              |
+| DownVotes       | Głosy na nie              |
+| ProfileImageUrl | Zdjęcie profilowe         |
+| Age             | Wiek użytkownika          |
+
+
+
+
+
 
 # Mongo
      
