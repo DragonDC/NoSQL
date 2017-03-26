@@ -3,12 +3,12 @@
 Wybrany zbiór danych: [Transportation - Airlines(2008)](http://stat-computing.org/dataexpo/2009/the-data.html)
  
 # [Zadanie GEO](https://dragondc.github.io/NoSQL/)
-
-W tym zadaniu wykorzystano bazę danych zawierającą porty lotnicze w USA.   
+   
 Zbiór danych - [Airports](http://stat-computing.org/dataexpo/2009/airports.csv)  
+W tym zadaniu wykorzystano zbiór danych zawierający porty lotnicze w USA.
 Jest to plik csv zajmujący 239KB zawierający podstawowe informacje o portach lotniczych.    
 Został on skonwertowany do formatu json przy użyciu [tej](http://www.convertcsv.com/csv-to-geojson.htm) strony.
-Po konwersji plik zajmuje 945KB.  
+Po konwersji plik zajmuje 945KB. Zbiór zawiera 3376 rekordów.  
 
 Przykładowy rekord  
 ```
@@ -112,7 +112,8 @@ mongoexport -d Geo -c Airports -q "{
      
 # Zadanie1  
 Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
-        
+W tym zadaniu wykorzystano zbiór danych o tematyce lotniczej. Spakowane dane zajmują na dysku 31,6MB. Po rozpakowaniu wszystkie dane zajmują 174MB. Na zbiór danych składa się 8 plików w formacie xml. Przy użyciu prostego programu Xml ValidatorBuddy wszystkie pliki zostały skonwertowane najpierw do formatu json a w późniejszym etapie do postaci csv, która była potrzebna przy importowaniu plików do postgresqla. Cały zbiór danych zawiera 464 311 rekordów.   
+
 # Mongo
      
 ## Import danych do bazy
