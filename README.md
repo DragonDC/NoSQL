@@ -140,7 +140,7 @@ Wyjaśnienie pól
 <br />  
 <br /> 
 <br />  
-<br />  
+  
 Przykładowy rekord w Tags.json  
 ```
 {
@@ -155,12 +155,12 @@ Wyjaśnienie pól
 | Pole    | Znaczenie                           |
 |---------|-------------------------------------|
 | TagName | Nazwa taga                          |
-| Count   | Ilość postów która posiada taki tag |
+| Count   | Ilość postów która posiada taki tag |  
 <br />  
 <br />  
 <br />  
-<br />  
-Przykładowy rekord w Users.json
+    
+Przykładowy rekord w Users.json  
 ```
 {
 	"Id": "1961",
@@ -191,8 +191,7 @@ Wyjaśnienie pól
 | Age             | Wiek użytkownika          |
 <br />  
 <br />  
-<br />  
-<br />  
+<br />   
 
 
 # Mongo
