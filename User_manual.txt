@@ -1,0 +1,33 @@
+USER MANUAL
+
+REQUIREMENTS:
+
+1. Have installed mongodb
+2. Have installed python
+
+
+FOLLOW THIS INSTRUCTIONS TO GET THE SAME RESULT AS MINE
+
+1. Create folder called Mongo on disc C (Path C:/Mongo)
+
+2. In folder Mongo create another three folders Mongo_export, Mongo_import and Python_scripts (Paths C:/Mongo/Mongo_export C:/Mongo/Mongo_import C:/Mongo/Python_scripts)
+
+3. Download from github three python scripts into folder python_scripts (processing_script_import.py, processing_script_export.py, processing_script_export_polygon.py) 
+
+4. Use this site http://www.convertcsv.com/csv-to-geojson.htm to convert airports.csv to geojson (download airports.csv from http://stat-computing.org/dataexpo/2009/airports.csv or from github)
+
+5. Without any changes on this site download converted file to mongo_import folder
+
+6. Now in folder mongo_import we have file called convertcsv.geojson
+
+7. Go to folder where the mongo is installed (.../Mongo/bin)
+
+8. Copy to this location two bat scripts: preprocess_import.bat and get_results.bat
+
+9. Run mongodb server
+
+10. Use script preprocess_import in command line
+
+11. If everything will be ok use script get_results in command line
+
+12. In Mongo_export folder after a while we will get right geojsons (wynik1.geojson, wynik2.geojson, wynik3.geojson)
