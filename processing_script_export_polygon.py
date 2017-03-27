@@ -9,13 +9,13 @@ if (os.path.exists(sys.argv[1])):
 	with open(file,"w") as fin:  
 	    [fin.write(line) for line in lines if line.strip() ]
 
-	#2. Delete first three lines and the last one
+	#2. Delete last line
 	with open(file, 'r') as fin:
 	    data = fin.read().splitlines(True)
 	with open(file, 'w') as fin:
 	    fin.writelines(data[:-1])
 
-	#3. Delete last line
+	#3. Insert line at the beginning 
 	f = open(file, "r")
 	data = f.readlines()
 	f.close()
