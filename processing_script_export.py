@@ -8,13 +8,14 @@ if (os.path.exists(sys.argv[1])):
 	    lines=fin.readlines()
 	with open(file,"w") as fin:  
 	    [fin.write(line) for line in lines if line.strip() ]
-
+	
+	#2. Insert lines at the beginning
 	f = open(file, "r")
 	data = f.readlines()
 	f.close()
-
 	data.insert(0, "{\n \"type\": \"FeatureCollection\",\n \"features\": \n")
-
+	
+	#3. Add at the end of file '}'	
 	f = open(file, "w")
 	data = "".join(data)
 	f.write(data+'}')
