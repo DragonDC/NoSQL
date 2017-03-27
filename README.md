@@ -434,10 +434,9 @@ Przykładowe polecenie
 
 ## Liczebność danych  
      
-Przykładowe polecenie <code>SELECT COUNT(*) FROM Tags;</code>   
-Tags - 759  
-Users - 14807  
-Posts - 25695  
+Przykładowe polecenie   
+<code>SELECT COUNT(*) FROM Tags;</code>   
+  
 
 
 ## Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
@@ -448,18 +447,6 @@ ORDER BY Score
 DESC LIMIT 10;
 ```  
 
-| Id         | Wynik  |
-|------------|--------|
-| 2081       | 233    |
-| 2078       | 186    |
-| 21988      | 142    |
-| 16553      | 126    |
-| 738        | 122    |
-| 22987      | 121    |
-| 29809      | 120    |
-| 24509      | 115    |     
-| 2884       | 113    |
-| 26630      | 105    |
 
 
 ## Agregacja 2. Wyświetlenie 10 najczęściej odwiedzanych postów
@@ -471,18 +458,6 @@ ORDER BY ViewCount
 DESC LIMIT 10; 
 ```  
 
-| Id      | Wyświetlenia |
-|---------|--------------|
-| 2078    | 131514       |
-| 3300    | 124009       |
-| 4966    | 96327        |
-| 1418    | 91792        |
-| 1807    | 72069        |
-| 738     | 69349        |
-| 8000    | 67530        |
-| 34586   | 63592        |     
-| 64      | 60557        |
-| 1210    | 59352        |
 
 
 ## Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
@@ -491,7 +466,6 @@ SELECT COUNT(*) FROM Posts
 WHERE Tags Like '%air-traffic-control%'; 
 ```
 
-Wynik to 461 postów, które dotyczą air-traffic-control.
 
 
 ## Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
@@ -504,18 +478,9 @@ ORDER BY Count
 DESC LIMIT 10; 
 ```  
 
-| Nick            | Ilość postów |
-|-----------------|--------------|
-| Peter Kämpf     | 1094   |
-| aeroalias       | 817    |
-| voretaq7        | 531    |
-| fooot           | 525    |
-| Dave            | 506    |
-| Pondlife        | 491    |
-| Lnafziger       | 447    |
-| DeltaLima       | 396    |     
-| ymb1            | 329    |
-| Carlo Felicione | 323    |
+
+Wyniki wszystkich agregacji są takie same jak w przypadku mongo, dlatego pominięto ich wyświetlenie.  
+
 
 
 ## Czas wykonania poszczególnych agregacji
