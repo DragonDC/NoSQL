@@ -2,12 +2,12 @@
 
 Wybrany zbiór danych: [Transportation - Airlines(2008)](http://stat-computing.org/dataexpo/2009/the-data.html)
  
-# [Zadanie GEO](https://dragondc.github.io/NoSQL/)
+# Zadanie GEO
    
 Zbiór danych - [Airports](http://stat-computing.org/dataexpo/2009/airports.csv)  
 W tym zadaniu wykorzystano zbiór danych zawierający porty lotnicze w USA.
 Jest to plik csv zajmujący 239KB zawierający podstawowe informacje o portach lotniczych.    
-Został on skonwertowany do formatu json przy użyciu [tej](http://www.convertcsv.com/csv-to-geojson.htm) strony.
+Został on skonwertowany do formatu json przy użyciu [**_TEJ_**](http://www.convertcsv.com/csv-to-geojson.htm) strony.
 Po konwersji plik zajmuje 945KB. Zbiór zawiera 3376 rekordów.  
 
 Przykładowy rekord  
@@ -68,8 +68,7 @@ db.Airports.find({
 	   }
 	}
 })
-```  
-[Wynik1](https://github.com/DragonDC/NoSQL/blob/master/wynik1.geojson)  
+```    
 
 
 2. Lotniska oddalone od lotniska Yuma Municipal(-102.7129869,40.10415306) w przedziale od 400km do 1000km
@@ -83,8 +82,7 @@ db.Airports.find({
 	   }
 	}
 })	
-```  
-[Wynik2](https://github.com/DragonDC/NoSQL/blob/master/wynik2.geojson)  
+```   
 
 
 3. Lotniska znajdujące się w obrębie pięciokąta
@@ -101,7 +99,8 @@ db.Airports.find({
 	} 
 })
 ```  
-[Wynik3](https://github.com/DragonDC/NoSQL/blob/master/wynik3.geojson)  
+
+Link do mapek znajduje się [**_TUTAJ_**](https://dragondc.github.io/NoSQL/).
 
 ### Przykład eksportu wyniku zapytania
 ```
@@ -110,12 +109,25 @@ mongoexport -d Geo -c Airports -q "{
 	d:\Damian\NoSQL\Airlines\mongo_export\wynik1.json --jsonArray --pretty
 ```
 
-Instrukcja umożliwiająca odtworzenie powyższych wyników na swoim komputerze znajduje się [tutaj](https://github.com/DragonDC/NoSQL/blob/master/User_manual.txt)
+## WAŻNE
+Instrukcja umożliwiająca odtworzenie powyższych wyników na swoim komputerze znajduje się [**_TUTAJ_**](https://github.com/DragonDC/NoSQL/blob/master/User_manual.txt).
 
 
 # Zadanie1  
 Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
-W tym zadaniu wykorzystano zbiór danych o tematyce lotniczej. Spakowane dane zajmują na dysku 31,6MB. Po rozpakowaniu wszystkie dane zajmują 174MB. Na zbiór danych składa się 8 plików w formacie xml (Badges, Comments, PostsHistory, PostLinks, Posts, Tags, Users, Votes). Przy użyciu prostego programu Xml ValidatorBuddy wszystkie pliki zostały skonwertowane najpierw do formatu json a w późniejszym etapie do postaci csv, która była potrzebna przy importowaniu plików do postgresqla. Cały zbiór danych zawiera 464 311 rekordów.   
+W tym zadaniu wykorzystano zbiór danych o tematyce lotniczej. Spakowane dane zajmują na dysku 31,6MB. Po rozpakowaniu wszystkie dane zajmują 174MB. Na zbiór danych składa się 8 plików w formacie xml (Badges, Comments, PostsHistory, PostLinks, Posts, Tags, Users, Votes). Przy użyciu prostego programu Xml ValidatorBuddy wszystkie pliki zostały skonwertowane najpierw do formatu json a w późniejszym etapie do postaci csv, która była potrzebna przy importowaniu plików do postgresqla. Cały zbiór danych zawiera 464 311 rekordów.
+
+Liczebność danych w poszczególnych plikach  
+Badges - 40589  
+Comments - 61511  
+PostHistory - 89048  
+PostLinks - 6285  
+Posts - 25695  
+Tags - 759  
+Users - 14807  
+Votes - 225617  
+
+W zadaniu tym wybrano 3 pliki(Posts, Tags, Users), których opis znajduje się poniżej.
 
 Przykładowy rekord w Posts.json
 ```json
@@ -232,15 +244,10 @@ Przykładowe polecenie
      
 ## Liczebność danych  
      
-Przykładowe polecenie <code>db.Users.count()</code>  
-Badges - 40589  
-Comments - 61511  
-PostHistory - 89048  
-PostLinks - 6285  
-Posts - 25695  
-Tags - 759  
-Users - 14807  
-Votes - 225617
+Przykładowe polecenie 
+```js
+db.Users.count()  
+```  
      
      
 Przykład kodu, który był potrzebny do sparsowania niektórych pól na Inta.  
@@ -435,8 +442,9 @@ Przykładowe polecenie
 ## Liczebność danych  
      
 Przykładowe polecenie   
-<code>SELECT COUNT(*) FROM Tags;</code>   
-  
+```sql
+SELECT COUNT(*) FROM Tags;  
+```  
 
 
 ## Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
@@ -502,7 +510,7 @@ Wyniki wszystkich agregacji są takie same jak w przypadku mongo, dlatego pomini
 | 3         | 8ms     | 4,715ms    |
 | 4         | 3,14min | 18,428ms   |
 
-
+Widać doskonale, że Mongo ma dużo gorsze wyniki od Postgresa. Największą dysproporcję widzimy przy ostatniej agregacji którą Mongo liczyło aż **_3,14minuty_**! 
 
 
 - [ ] Aggregation Pipeline
