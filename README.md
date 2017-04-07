@@ -11,7 +11,7 @@ Został on skonwertowany do formatu json przy użyciu [tej](http://www.convertcs
 Po konwersji plik zajmuje 945KB. Zbiór zawiera 3376 rekordów.  
 
 Przykładowy rekord  
-```
+```json
 {
     "type": "Feature",
     "geometry": {
@@ -47,7 +47,7 @@ use Geo
 ```
 
 2. Stworzenie kolekcji Airports  
-```
+```js
 db.createCollection("Airports")
 ```
 
@@ -58,7 +58,7 @@ mongoimport --db Geo --collection Airports --file  d:\Damian\NoSQL\Airlines\geo_
 
 ### Zapytania  
 1. Lotniska oddalone o ponad 1000km od lotniska Thigpen(-89.23450472,31.95376472)
-```
+```js
 db.Airports.find({ 
 	geometry: {
 	   $near: {
@@ -73,7 +73,7 @@ db.Airports.find({
 
 
 2. Lotniska oddalone od lotniska Yuma Municipal(-102.7129869,40.10415306) w przedziale od 400km do 1000km
-```
+```js
 db.Airports.find({ 
 	geometry: {
 	   $near: {
@@ -88,7 +88,7 @@ db.Airports.find({
 
 
 3. Lotniska znajdujące się w obrębie pięciokąta
-```
+```js
 db.Airports.find({ 
 	geometry: {
 	   $geoWithin: {
@@ -118,7 +118,7 @@ Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.s
 W tym zadaniu wykorzystano zbiór danych o tematyce lotniczej. Spakowane dane zajmują na dysku 31,6MB. Po rozpakowaniu wszystkie dane zajmują 174MB. Na zbiór danych składa się 8 plików w formacie xml (Badges, Comments, PostsHistory, PostLinks, Posts, Tags, Users, Votes). Przy użyciu prostego programu Xml ValidatorBuddy wszystkie pliki zostały skonwertowane najpierw do formatu json a w późniejszym etapie do postaci csv, która była potrzebna przy importowaniu plików do postgresqla. Cały zbiór danych zawiera 464 311 rekordów.   
 
 Przykładowy rekord w Posts.json
-```
+```json
 {
 	"Id": "710",
 	"CreationDate": "2014-01-08T02:25:11.510",
@@ -145,7 +145,7 @@ Wyjaśnienie pól
 <br />  
   
 Przykładowy rekord w Tags.json  
-```
+```json
 {
 	"Id": "17",
 	"TagName": "flight-training",
@@ -164,7 +164,7 @@ Wyjaśnienie pól
 <br />  
     
 Przykładowy rekord w Users.json  
-```
+```json
 {
 	"Id": "1961",
 	"Reputation": "106319",
@@ -244,7 +244,7 @@ Votes - 225617
      
      
 Przykład kodu, który był potrzebny do sparsowania niektórych pól na Inta.  
-```
+```js
 db.Posts.find({Score: {$exists: true}}).forEach(function(obj) {  
 	obj.Score = new NumberInt(obj.Score);  
    	db.Posts.save(obj);  
@@ -252,7 +252,7 @@ db.Posts.find({Score: {$exists: true}}).forEach(function(obj) {
 ```
 
 ## Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
-```
+```js
 db.Posts.aggregate(  
    [  
         { $sort: { Score: -1 } },  
@@ -277,7 +277,7 @@ Ze względu na sporą treść postów zostały one zamienione na Id postu
 | 26630      | 105    |
 
 ## Agregacja 2. Wyświetlenie 10 najczęściej odwiedzanych postów
-```
+```js
 db.Posts.aggregate(  
    [  
 	{ $group : {_id: {id: "$Id", wyswietlenia: "$ViewCount"}}},  
@@ -302,7 +302,7 @@ db.Posts.aggregate(
 | 1210    | 59352        |
 
 ## Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
-```
+```js
 db.Posts.createIndex(  
    {  
      	Tags: "text"  
@@ -320,7 +320,7 @@ db.Posts.aggregate(
 Wynik to 461 postów, które dotyczą air-traffic-control.
 
 ## Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
-```
+```js
 db.Posts.aggregate(  
   [
 	{ $lookup : {from:"Users", localField:"OwnerUserId", foreignField: "Id", as:"users_posts"}},  
