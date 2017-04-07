@@ -1,10 +1,11 @@
 ## Damian Centek
 
-Wybrany zbiór danych: [Transportation - Airlines(2008)](http://stat-computing.org/dataexpo/2009/the-data.html)
- 
+<br />  
+<br />  
+
 # Zadanie GEO
    
-Zbiór danych - [Airports](http://stat-computing.org/dataexpo/2009/airports.csv)  
+Zbiór danych - [**_Airports_**](http://stat-computing.org/dataexpo/2009/airports.csv)  
 W tym zadaniu wykorzystano zbiór danych zawierający porty lotnicze w USA.
 Jest to plik csv zajmujący 239KB zawierający podstawowe informacje o portach lotniczych.    
 Został on skonwertowany do formatu json przy użyciu [**_TEJ_**](http://www.convertcsv.com/csv-to-geojson.htm) strony.
@@ -100,7 +101,10 @@ db.Airports.find({
 })
 ```  
 
+### Mapki
+
 Link do mapek znajduje się [**_TUTAJ_**](https://dragondc.github.io/NoSQL/).
+
 
 ### Przykład eksportu wyniku zapytania
 ```
@@ -111,10 +115,14 @@ mongoexport -d Geo -c Airports -q "{
 
 ## WAŻNE
 Instrukcja umożliwiająca odtworzenie powyższych wyników na swoim komputerze znajduje się [**_TUTAJ_**](https://github.com/DragonDC/NoSQL/blob/master/User_manual.txt).
-
+<br />  
+<br />  
+<br />
+<br />  
+<br /> 
 
 # Zadanie1  
-Zbiór danych - [Aviation](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
+Zbiór danych - [**_Aviation_**](https://archive.org/download/stackexchange/aviation.stackexchange.com.7z)  
 W tym zadaniu wykorzystano zbiór danych o tematyce lotniczej. Spakowane dane zajmują na dysku 31,6MB. Po rozpakowaniu wszystkie dane zajmują 174MB. Na zbiór danych składa się 8 plików w formacie xml (Badges, Comments, PostsHistory, PostLinks, Posts, Tags, Users, Votes). Przy użyciu prostego programu Xml ValidatorBuddy wszystkie pliki zostały skonwertowane najpierw do formatu json a w późniejszym etapie do postaci csv, która była potrzebna przy importowaniu plików do postgresqla. Cały zbiór danych zawiera 464 311 rekordów.
 
 Liczebność danych w poszczególnych plikach  
@@ -205,13 +213,11 @@ Wyjaśnienie pól
 | ProfileImageUrl | Zdjęcie profilowe         |
 | Age             | Wiek użytkownika          |
 <br />  
-<br />  
-<br />   
+<br />    
 
-
-# Mongo
+## Mongo
      
-## Import danych do bazy
+### Import danych do bazy
 ```
 mongoimport --db zadanie1 --collection Badges --file  d:\Damian\NoSQL\Airlines\Zad1\Badges.json --jsonArray  
 mongoimport --db zadanie1 --collection Comments --file  d:\Damian\NoSQL\Airlines\Zad1\Comments.json --jsonArray    
@@ -223,7 +229,7 @@ mongoimport --db zadanie1 --collection Users --file  d:\Damian\NoSQL\Airlines\Za
 mongoimport --db zadanie1 --collection Votes --file  d:\Damian\NoSQL\Airlines\Zad1\Votes.json --jsonArray  
 ```  
      
-## Czas importu dokumentów do bazy  
+### Czas importu dokumentów do bazy  
      
 Przykładowe polecenie  
 ```
@@ -242,7 +248,7 @@ Przykładowe polecenie
 | Votes          | 3304,2604  |
      
      
-## Liczebność danych  
+### Liczebność danych  
      
 Przykładowe polecenie 
 ```js
@@ -257,8 +263,10 @@ db.Posts.find({Score: {$exists: true}}).forEach(function(obj) {
    	db.Posts.save(obj);  
 });     
 ```
+<br />  
+<br />
 
-## Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
+### Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
 ```js
 db.Posts.aggregate(  
    [  
@@ -282,8 +290,10 @@ Ze względu na sporą treść postów zostały one zamienione na Id postu
 | 24509      | 115    |     
 | 2884       | 113    |
 | 26630      | 105    |
+<br />  
+<br /> 
 
-## Agregacja 2. Wyświetlenie 10 najczęściej odwiedzanych postów
+### Agregacja 2. Wyświetlenie 10 najczęściej odwiedzanych postów
 ```js
 db.Posts.aggregate(  
    [  
@@ -307,8 +317,10 @@ db.Posts.aggregate(
 | 34586   | 63592        |     
 | 64      | 60557        |
 | 1210    | 59352        |
+<br />  
+<br /> 
 
-## Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
+### Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
 ```js
 db.Posts.createIndex(  
    {  
@@ -325,8 +337,10 @@ db.Posts.aggregate(
 ```
 
 Wynik to 461 postów, które dotyczą air-traffic-control.
+<br />  
+<br /> 
 
-## Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
+### Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
 ```js
 db.Posts.aggregate(  
   [
@@ -353,9 +367,11 @@ db.Posts.aggregate(
 | DeltaLima       | 396    |     
 | ymb1            | 329    |
 | Carlo Felicione | 323    |
+<br />  
+<br /> 
 
 
-## Czas wykonania poszczególnych agregacji
+### Czas wykonania poszczególnych agregacji
 
 
 | Agregacja | Czas    |
@@ -364,11 +380,12 @@ db.Posts.aggregate(
 | 2         | 68ms    |
 | 3         | 8ms     |
 | 4         | 3,14min |
+<br />  
+<br />  
 
+## PostgreSQL
 
-# PostgreSQL
-
-## Stworzenie tabel 
+### Stworzenie tabel 
 
 Tags  
 ```sql
@@ -418,14 +435,14 @@ CREATE TABLE Posts (
 );						
 ```  
 
-## Import danych do bazy
+### Import danych do bazy
 ```
 \copy Tags FROM 'd:\Damian\NoSQL\Airlines\Zad1\Tags.csv' DELIMITER ';' CSV HEADER
 \copy Users FROM 'd:\Damian\NoSQL\Airlines\Zad1\Users.csv' DELIMITER ';' CSV HEADER
 \copy Posts FROM 'd:\Damian\NoSQL\Airlines\Zad1\Posts.csv' DELIMITER ';' CSV HEADER
 ```  
 
-## Czas importu do bazy  
+### Czas importu do bazy  
 
 Przykładowe polecenie  
 ```
@@ -439,25 +456,26 @@ Przykładowe polecenie
 | Posts          | 226,924    |
 
 
-## Liczebność danych  
+### Liczebność danych  
      
 Przykładowe polecenie   
 ```sql
 SELECT COUNT(*) FROM Tags;  
 ```  
+<br />  
+<br /> 
 
-
-## Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
+### Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
 ```sql
 SELECT Id,Score 
 FROM Posts 
 ORDER BY Score 
 DESC LIMIT 10;
 ```  
+<br />  
+<br /> 
 
-
-
-## Agregacja 2. Wyświetlenie 10 najczęściej odwiedzanych postów
+### Agregacja 2. Wyświetlenie 10 najczęściej odwiedzanych postów
 ```sql
 SELECT Id,ViewCount 
 FROM Posts 
@@ -465,18 +483,18 @@ WHERE ViewCount > 0
 ORDER BY ViewCount 
 DESC LIMIT 10; 
 ```  
+<br />  
+<br /> 
 
-
-
-## Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
+### Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
 ```sql
 SELECT COUNT(*) FROM Posts 
 WHERE Tags Like '%air-traffic-control%'; 
 ```
+<br />  
+<br /> 
 
-
-
-## Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
+### Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
 ```sql
 SELECT DisplayName, COUNT(*) FROM Posts 
 JOIN Users 
@@ -485,13 +503,14 @@ GROUP BY DisplayName
 ORDER BY Count 
 DESC LIMIT 10; 
 ```  
-
+<br />   
 
 Wyniki wszystkich agregacji są takie same jak w przypadku mongo, dlatego pominięto ich wyświetlenie.  
+<br />  
+<br /> 
 
 
-
-## Czas wykonania poszczególnych agregacji
+### Czas wykonania poszczególnych agregacji
 
 | Agregacja | Czas w ms |
 |-----------|-----------|
@@ -499,9 +518,9 @@ Wyniki wszystkich agregacji są takie same jak w przypadku mongo, dlatego pomini
 | 2         | 23,228    |
 | 3         | 4,715     |
 | 4         | 18,428    |
+<br /> 
 
-
-# Porównanie czasu wykonania agregacji dla PostgreSQL oraz Mongo
+## Porównanie czasu wykonania agregacji dla PostgreSQL oraz Mongo
 
 | Agregacja | Mongo   | PostgreSQL |
 |-----------|---------|------------|
@@ -510,7 +529,9 @@ Wyniki wszystkich agregacji są takie same jak w przypadku mongo, dlatego pomini
 | 3         | 8ms     | 4,715ms    |
 | 4         | 3,14min | 18,428ms   |
 
-Widać doskonale, że Mongo ma dużo gorsze wyniki od Postgresa. Największą dysproporcję widzimy przy ostatniej agregacji którą Mongo liczyło aż **_3,14minuty_**! 
+Widać doskonale, że Mongo ma dużo gorsze wyniki od Postgresa. Największą dysproporcję widać przy ostatniej agregacji, którą Mongo liczyło aż **_3,14minuty_**! 
+<br />  
+<br /> 
 
 
 - [ ] Aggregation Pipeline
