@@ -364,7 +364,7 @@ db.Posts.aggregate(
 ## Stworzenie tabel 
 
 Tags  
-```
+```sql
 CREATE TABLE Tags (
 	Id BIGINT,
 	TagName VARCHAR,
@@ -375,7 +375,7 @@ CREATE TABLE Tags (
 ```  
 
 Users  
-```
+```sql
 CREATE TABLE Users (
 	Id BIGINT,
 	Reputation INTEGER,
@@ -392,7 +392,7 @@ CREATE TABLE Users (
 ```  
 
 Posts
-```
+```sql
 CREATE TABLE Posts (
 	Id BIGINT,
 	PostTypeId BIGINT,
@@ -440,7 +440,7 @@ Przykładowe polecenie
 
 
 ## Agregacja 1. Wyświetlenie 10 najbardziej punktowanych postów  
-```
+```sql
 SELECT Id,Score 
 FROM Posts 
 ORDER BY Score 
@@ -450,7 +450,7 @@ DESC LIMIT 10;
 
 
 ## Agregacja 2. Wyświetlenie 10 najczęściej odwiedzanych postów
-```
+```sql
 SELECT Id,ViewCount 
 FROM Posts 
 WHERE ViewCount > 0
@@ -461,7 +461,7 @@ DESC LIMIT 10;
 
 
 ## Agregacja 3. Policzenie postów które dotyczą air-traffic-control.
-```
+```sql
 SELECT COUNT(*) FROM Posts 
 WHERE Tags Like '%air-traffic-control%'; 
 ```
@@ -469,7 +469,7 @@ WHERE Tags Like '%air-traffic-control%';
 
 
 ## Agregacja 4. Wyświetlenie 10 najbardziej aktywnych użytkowników
-```
+```sql
 SELECT DisplayName, COUNT(*) FROM Posts 
 JOIN Users 
 ON Users.Id = Posts.OwnerUserId
